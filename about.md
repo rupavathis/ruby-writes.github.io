@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm Rupavathi Subramani working as a software developer with [MACMORRIS](https://macmorris.maynoothuniversity.ie/), at [Maynooth University](https://www.maynoothuniversity.ie/)
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm responsible for the design and development of the infrastructure, database and related web applications used by the research team. This includes the creation of data visualisation tools for the project, including interactive maps and network visualisations.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rupavathi.subamani@mu.ie](mailto:rupavathi.subamani@mu.ie)

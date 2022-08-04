@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I like my cheezo bubble tea and code with my music on!
+<!--  I'd rather call myself a container girl as I containerize my code within singularity whether it shines or rains. I write simple things and  -->
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rupavathi.subramani@mu.ie](mailto:rupavathi.subramani@mu.ie)

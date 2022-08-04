@@ -1,0 +1,22 @@
+I"�<p>Virtual machines are always the talk of the town. Isn’t running a machine within a machine amazing? With the current technology, you can make your current machine to host a guest. The guest shares the host’s hardware and has its own kernal and operating system. There are number of ways to use virtual machines on your host machine. In this post, we will compare two such ways to use VMs - Multipass and WSL2</p>
+
+<h2 id="build-vms">Build VMs</h2>
+<h3 id="with-multipass">With multipass</h3>
+
+<p>Multipass is a lightweight, commandline VM manager developed by Canonical team, for quickly deploying Ubuntu instances on our local machine. It uses KVM on Linux, Hyper-V on Windows and HyperKit on macOS to run the virtual machine with minimal overhead. It can also use VirtualBox on Windows and macOS. In this article, we will use VirtualBox to run Multipass. We will need Oracle VM VirtualBox on our host machine to run Multipass. After <a href="https://multipass.run/">installation</a>, check the multipass version from Windows Powershell</p>
+
+<p>The below line will launch a VM with 20G disk storage and 2G memory and <code class="language-plaintext highlighter-rouge">--network</code> command will bridge the VM with host network.</p>
+
+<p><code class="language-plaintext highlighter-rouge">multipass launch --network WiFi -d 20G -m 2G</code></p>
+
+<h3 id="with-wsl2">With WSL2</h3>
+
+<p>The Windows Subsystem for Linux (WSL) allows us to run command-line tools and some linux applications directly on the Windows. After <a href="https://docs.microsoft.com/en-us/windows/wsl/install">installation</a>, install the required distribution system and we are cool! You can check the memory allocated for your VM and ways to limit it from (here)[https://www.aleksandrhovhannisyan.com/blog/limiting-memory-usage-in-wsl-2/].</p>
+
+<h2 id="password-protection">Password protection</h2>
+
+<h3 id="multipass">Multipass</h3>
+
+<h3 id="wsl2">WSL2</h3>
+
+:ET

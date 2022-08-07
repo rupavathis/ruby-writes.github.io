@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	// font:inherit
-	font-family: initial;
+	// font-family: initial;
+	font-family: 'Source Sans Pro', sans-serif;
 	vertical-align: baseline;
 }
 // HTML5 display-role reset for older browsers
@@ -51,4 +52,9 @@ table {
 // from: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: lighter;
+
 }

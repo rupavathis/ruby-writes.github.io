@@ -1,0 +1,59 @@
+.language-sh .highlight pre.highlight {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 10px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+, make scrollbars invisible */
+    scrollbar-width: none;  /* Firefox, make scrollbars invisible */
+}
+
+.language-sh .highlight pre.highlight > button {
+    opacity: 0;
+    top:5px;
+    right: 5px;
+    border-radius: 10%;
+    
+  }
+  
+  .language-sh .highlight pre.highlight:hover > button {
+    opacity: 1;
+  }
+  
+  .language-sh .highlight pre.highlight > button:active,
+  .language-sh .highlight pre.highlight > button:focus {
+    opacity: 1;
+  }
+.highlight pre.highlight {
+    padding: 8px 12px;
+    position: relative;
+
+    // copy code to clipboard
+    .copy {
+      color: #efefef;;
+      position: absolute;
+      right: 1.2rem;
+      top: 1rem;
+      opacity: 0;
+      border-color: darkgray;
+      border-radius: 10%;
+
+      &:active,
+      &:focus,
+      &:hover {
+        background: grey;
+        opacity: 1;
+      }
+    }
+
+    &:active .copy,
+    &:focus .copy,
+    &:hover .copy {
+      background: darkgray;
+      opacity: 1;
+    }
+  }
+
+

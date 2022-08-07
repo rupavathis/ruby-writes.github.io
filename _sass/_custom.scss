@@ -4,10 +4,19 @@
     background-color: black;
     font-family: monospace;
     overflow: auto;
-    padding: 10px;
+    // padding: 10px;
     border-radius: 10px;
     -ms-overflow-style: none;  /* Internet Explorer 10+, make scrollbars invisible */
     scrollbar-width: none;  /* Firefox, make scrollbars invisible */
+
+    // background-color: #efefef;
+    // padding: 7px 7px 7px 10px;
+    // border: 1px solid #ddd;
+    // -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
+    // -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
+    // box-shadow: 3px 3px rgba(0,0,0,0.1);
+    // margin: 20px 0 20px 0;
+    // // overflow: scroll;
 }
 
 .language-sh .highlight pre.highlight > button {

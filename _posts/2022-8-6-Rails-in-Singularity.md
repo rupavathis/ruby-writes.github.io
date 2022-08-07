@@ -62,3 +62,6 @@ singularity shell  path-of-sif-file/sifname.sif
 ```
 
 Now, we have got a singularity terminal! Yayy!
+
+
+## Yet to be completed

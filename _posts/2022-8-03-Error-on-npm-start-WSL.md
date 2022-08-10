@@ -3,7 +3,7 @@ layout: post
 title: Error - spawn powershell.exe ENOENT in WSL
 ---
 
-If you are running React app for the first time in WSL, some errors have the potential to kill your first joy of seeing the default react page getting loaded. But no, don't let the error get better than you! Let's decode one of the common errors and a way to straighten it out.
+If you are running React app for the first time in WSL, some errors have the potential to kill your first joy of seeing the default react page getting loaded. But no, don't let the error get better of you! Let's decode one of the common errors and a way to straighten it out.
 
 
 ## Start a react-app

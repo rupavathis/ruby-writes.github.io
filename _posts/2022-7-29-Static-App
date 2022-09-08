@@ -2,3 +2,8 @@
 layout: post
 title: Serve a static app with nginx in a docker
 ---
+
+This article will explain the step-by-step process on how to set up nginx in a docker container to serve a basic HTML file. 
+
+
+## Dockerfile

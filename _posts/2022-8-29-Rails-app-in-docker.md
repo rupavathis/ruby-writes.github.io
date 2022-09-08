@@ -101,7 +101,7 @@ Now, you can view your app from ```http://localhost:3000```
 
 # Adding env file in rails app
 
-It is a good practice to keep the configuration in a separate file inside the codebase. Fortunately, the variables specified in docker-compose.yml file, without no extra setup, will be subsituted with the variables specified inside the .env file (if they are not present in the environment variables already).
+It is a [good practice](https://12factor.net/) to keep the configuration in a separate file inside the codebase. Fortunately, the variables specified in docker-compose.yml file, without no extra setup, will be subsituted with the variables specified inside the .env file (if they are not present in the environment variables already).
 
 ## Steps to add .env file
 1. Add a new line .env at the end of .gitignore file if it is not present already. This .env file which we will create in the next step contains all the secrets and hence is added to .gitignore before creation!

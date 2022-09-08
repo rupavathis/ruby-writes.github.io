@@ -46,7 +46,7 @@ Let's update the ```config/database.yml``` file
     password: password
 ```
 
-Now, update the Dcokerfile with the below lines.
+Now, update the Dockerfile with the below lines.
 
 ``` 
     FROM ruby:3.1
